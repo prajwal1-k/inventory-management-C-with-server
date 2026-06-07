@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Manager</title>
+
+    <link rel="stylesheet"
+          href="./style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Inventory Management</h1>
+
+    <form id="productForm">
+
+        <input id="id"
+               placeholder="ID">
+
+        <input id="name"
+               placeholder="Name">
+
+        <input id="quantity"
+               placeholder="Quantity">
+
+        <input id="price"
+               placeholder="Price">
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+    <table id="products">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Qty</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+
+    </table>
+
+</div>
+
+<script src="./app.js"></script>
+
+</body>
+</html>
